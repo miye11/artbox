@@ -1,0 +1,77 @@
+#magazine {
+  width: 100%;
+  height: 800px;
+  margin-top: 150px;
+}
+#magazine .yellow{
+  height: 600px;
+  background-color: #FFDE4F;
+}
+#magazine .wrap {
+  
+}
+#magazine .wrap nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  align-items: center;
+}
+#magazine .wrap nav h2 {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  padding-bottom: 6px;
+}
+#magazine .wrap nav a {
+  font-size: 15px;
+  font-weight: bold;
+}
+#magazine .wrap nav a::after{
+  content: "";
+  display: inline-block;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  margin-left: 10px;
+}
+#magazine .wrap .wrap2 {
+  
+}
+#magazine .wrap .wrap2 ul {
+  margin-top: 100px;
+  position: relative;
+}
+#magazine .wrap .wrap2 ul li {
+  font-weight: bold;
+  line-height: 1.5;
+}
+#magazine .wrap .wrap2 ul li:nth-child(1){
+  font-size: 27px;
+}
+#magazine .wrap .wrap2 ul li:nth-child(2){
+  font-size: 45px;
+}
+#magazine .wrap .wrap2 ul li:nth-child(3){
+  font-weight: normal;
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+#magazine .wrap .wrap2 ul .mview {
+  position: absolute;
+  display: block;
+  width: 610px;
+  height: 610px;
+  border-radius: 30px;
+  right: 0px;
+  bottom: -265px;
+  background-image: url(../img/m1.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  transition: all 0.5s;
+}
+#magazine .wrap .wrap2 ul .mview:hover{
+   background-size: 110% 110%;
+}

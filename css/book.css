@@ -1,0 +1,48 @@
+main{
+  width: 100%;
+} 
+#book {
+  width: 100%;
+}
+#book .wrap {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+#book .wrap nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#book .wrap nav .photo{
+  display: inline-block;
+  background-image: url(../img/book1.png);
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#book .wrap nav .photo:nth-of-type(2){
+  background-image: url(../img/book2.png);
+}
+#book .wrap nav ul{
+  
+}
+#book .wrap nav li {
+
+}
+#book .wrap nav li:nth-child(2){
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#book .wrap nav p .arrow{
+  border-top: 2px solid #909090;
+  border-right: 2px solid #909090;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transform: translateX(-4px) rotate(45deg);
+}

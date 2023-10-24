@@ -1,0 +1,106 @@
+#gather {
+  width: 100%;
+}
+#gather .wrap {
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+#gather .wrap h2 {
+  line-height: 2;
+  font-size: 30px;
+  margin-top: 20px;
+}
+#gather .wrap .wrap2>p,#gather .wrap .wrap3>p {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  color: #636363;
+}
+#gather .wrap .per {
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+}
+#gather .wrap ul{
+  gap: 12px;
+}
+#gather .wrap ul li{
+  background-size: cover;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#gather ul .smallbox p{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  transform: translateY(100%);
+  transition: all 0.3s;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #fff;
+}
+#gather ul .smallbox p span{
+  line-height: 1.5;
+  margin-top: 40px;
+  font-weight: bold;
+}
+.gatherup{
+   transform: translateY(0%) !important;
+}
+/* wrap2 */
+#gather .wrap2 {
+  
+}
+#gather .wrap2 .gbox {
+  background-image: url(../img/gather1.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  transition: all 0.5s;
+}
+#gather .wrap2 .gbox:hover{
+   background-size: 110% 110%;
+}
+#gather .gather1 .g1{
+  background-image: url(../img/g1.jpg);
+}
+#gather .gather1 .g2{
+  background-image: url(../img/g2.jpg);
+}
+#gather .gather1 .g3{
+  background-image: url(../img/g3.jpg);
+}
+#gather .gather1 .g4{
+  background-image: url(../img/g4.jpg);
+}
+/* wrap3 */
+#gather .wrap3 {
+  
+}
+#gather .wrap3 .gbox {
+  background-image: url(../img/gather2.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+  transition: all 0.5s;
+}
+#gather .wrap3 .gbox:hover{
+  background-size: 110% 110%;
+}
+#gather .gather2 .g5{
+  background-image: url(../img/g5.jpg);
+}
+#gather .gather2 .g6{
+  background-image: url(../img/g6.jpg);
+}
+#gather .gather2 .g7{
+  background-image: url(../img/g7.jpg);
+}
+#gather .gather2 .g8{
+  background-image: url(../img/g8.jpg);
+}

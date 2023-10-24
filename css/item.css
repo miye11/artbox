@@ -1,0 +1,39 @@
+#item {
+  width: 100%;
+  margin-top: 100px;
+}  
+#item .wrap {
+  display: flex;
+  justify-content: space-around;
+} 
+#item .wrap article {
+
+}
+#item .wrap article .ibox {
+  background-image: url(../img/item1.jpg);
+  background-size: cover;
+  background-position: center;
+} 
+#item .wrap article h3 {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 3;
+}
+#item .wrap article p {
+  color: #818181;
+  font-weight: bold;
+  font-size: 15px;
+}
+#item .wrap .item2 .ibox {
+  background-image: url(../img/item2.jpg);
+}
+#item .wrap .item3 .ibox {
+  background-image: url(../img/item3.jpg);
+}
+#item .wrap article .ibox {
+  background-size: 100% 100%;
+  transition: all 0.5s;
+}
+#item .wrap article .ibox:hover{
+   background-size: 110% 110%;
+}
